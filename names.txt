@@ -1,0 +1,547 @@
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming
+$ git init
+Initialized empty Git repository in E:/Programming/.git/
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ ls
+'CPP By Sanket Singh'/   levelorderbst.cpp          sortbinarylinkedlist.exe*
+'Kushagra Nigam'/        partionlist.cpp            squareroot.cpp
+'Riya Bansal'/           partionlist.exe*           squareroot.exe*
+'Umang Agarwal'/         sortbinarylinkedlist.cpp   tempCodeRunnerFile.cpp
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ ls -a
+ ./                     'Riya Bansal'/              sortbinarylinkedlist.exe*
+ ../                    'Umang Agarwal'/            squareroot.cpp
+ .git/                   levelorderbst.cpp          squareroot.exe*
+ .vscode/                partionlist.cpp            tempCodeRunnerFile.cpp
+'CPP By Sanket Singh'/   partionlist.exe*
+'Kushagra Nigam'/        sortbinarylinkedlist.cpp
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ ls .git
+HEAD  config  description  hooks/  info/  objects/  refs/
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ touch names.txt
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vscode/
+        CPP By Sanket Singh/
+        Kushagra Nigam/
+        Riya Bansal/
+        Umang Agarwal/
+        levelorderbst.cpp
+        names.txt
+        partionlist.cpp
+        partionlist.exe
+        sortbinarylinkedlist.cpp
+        sortbinarylinkedlist.exe
+        squareroot.cpp
+        squareroot.exe
+        tempCodeRunnerFile.cpp
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git add .
+warning: LF will be replaced by CRLF in .vscode/c_cpp_properties.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .vscode/tasks.json.
+The file will have its original line endings in your working directory
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .vscode/c_cpp_properties.json
+        new file:   .vscode/launch.json
+        new file:   .vscode/settings.json
+        new file:   .vscode/tasks.json
+        new file:   CPP By Sanket Singh/Backtracking_Day1/permutationstring.cpp
+        new file:   CPP By Sanket Singh/Backtracking_Day1/permutationstring.exe
+        new file:   CPP By Sanket Singh/Backtracking_Day1/ratinmaze.cpp
+        new file:   CPP By Sanket Singh/Backtracking_Day1/ratinmaze.exe
+        new file:   CPP By Sanket Singh/Backtracking_Day1/subsetsofnumber.cpp
+        new file:   CPP By Sanket Singh/Backtracking_Day1/subsetsofnumber.exe
+        new file:   CPP By Sanket Singh/Backtracking_Day2/NQueens.cpp
+        new file:   CPP By Sanket Singh/Backtracking_Day2/NQueens.exe
+        new file:   CPP By Sanket Singh/Backtracking_Day2/knightstour.cpp
+        new file:   CPP By Sanket Singh/Backtracking_Day2/knightstour.exe
+        new file:   CPP By Sanket Singh/Dynamic Programming/CSES Problem Set1/minimizingcoin.cpp
+        new file:   CPP By Sanket Singh/Dynamic Programming/CSES Problem Set1/minimizingcoin.exe
+        new file:   CPP By Sanket Singh/Dynamic Programming/CSES problem set 2/bookshop.cpp
+        new file:   CPP By Sanket Singh/Dynamic Programming/CSES problem set 2/bookshop.exe
+        new file:   CPP By Sanket Singh/Dynamic Programming/dicecombination_cses.cpp
+        new file:   CPP By Sanket Singh/Dynamic Programming/dicecombination_cses.exe
+        new file:   CPP By Sanket Singh/Dynamic Programming/fibonacci.cpp
+        new file:   CPP By Sanket Singh/Dynamic Programming/fibonacci.exe
+        new file:   CPP By Sanket Singh/Dynamic Programming/frog.cpp
+        new file:   CPP By Sanket Singh/Dynamic Programming/frog.exe
+        new file:   CPP By Sanket Singh/Dynamic Programming/partyprob.cpp
+        new file:   CPP By Sanket Singh/Dynamic Programming/partyprob.exe
+        new file:   CPP By Sanket Singh/Dynamic Programming/tempCodeRunnerFile.cpp
+        new file:   CPP By Sanket Singh/Graph/GenericGraph.cpp
+        new file:   CPP By Sanket Singh/Graph/GenericGraph.exe
+        new file:   CPP By Sanket Singh/Graph/GenericGraphUnidirectional.cpp
+        new file:   CPP By Sanket Singh/Graph/GenericGraphUnidirectional.exe
+        new file:   CPP By Sanket Singh/Introtocppprog/add.h
+        new file:   CPP By Sanket Singh/Introtocppprog/numer1.cpp
+        new file:   CPP By Sanket Singh/Introtocppprog/numer1.exe
+        new file:   CPP By Sanket Singh/Introtocppprog/primitivepythgoreantriplet.cpp
+        new file:   CPP By Sanket Singh/Introtocppprog/primitivepythgoreantriplet.exe
+        new file:   CPP By Sanket Singh/Introtocppprog/tempCodeRunnerFile.cpp
+        new file:   CPP By Sanket Singh/Recursion_Day2/PartyProblem.cpp
+        new file:   CPP By Sanket Singh/Recursion_Day2/PartyProblem.exe
+        new file:   CPP By Sanket Singh/Recursion_Day2/patternprinting
+        new file:   CPP By Sanket Singh/Recursion_Day2/patternprinting.cpp
+        new file:   CPP By Sanket Singh/Recursion_Day2/patternprinting.exe
+        new file:   CPP By Sanket Singh/Recursion_Day2/power.cpp
+        new file:   CPP By Sanket Singh/Recursion_Day2/power.exe
+        new file:   CPP By Sanket Singh/Recursion_Day2/printingsubset.cpp
+        new file:   CPP By Sanket Singh/Recursion_Day2/printingsubset.exe
+        new file:   CPP By Sanket Singh/Recursion_Day3/dicepath.cpp
+        new file:   CPP By Sanket Singh/Recursion_Day3/dicepath.exe
+        new file:   CPP By Sanket Singh/Recursion_Day3/lexicographical.cpp
+        new file:   CPP By Sanket Singh/Recursion_Day3/lexicographical.exe
+        new file:   CPP By Sanket Singh/Recursion_Day3/permutationofstringwithuniquecharacters.cpp
+        new file:   CPP By Sanket Singh/Recursion_Day3/permutationofstringwithuniquecharacters.exe
+        new file:   CPP By Sanket Singh/Recursion_Day3/permutationsofstringwithrepetition.cpp
+        new file:   CPP By Sanket Singh/Recursion_Day3/permutationsofstringwithrepetition.exe
+        new file:   CPP By Sanket Singh/Recursion_Day3/raatmaze.cpp
+        new file:   CPP By Sanket Singh/Recursion_Day3/raatmaze.exe
+        new file:   CPP By Sanket Singh/Recursion_Day3/tempCodeRunnerFile.cpp
+        new file:   CPP By Sanket Singh/Recursion_Day3/tempCodeRunnerFile.exe
+        new file:   CPP By Sanket Singh/Recusion_Day1/binarystrings.cpp
+        new file:   CPP By Sanket Singh/Recusion_Day1/binarystrings.exe
+        new file:   CPP By Sanket Singh/Recusion_Day1/numbers1.cpp
+        new file:   CPP By Sanket Singh/Recusion_Day1/numbers1.exe
+        new file:   CPP By Sanket Singh/Recusion_Day1/numbers2.cpp
+        new file:   CPP By Sanket Singh/Recusion_Day1/numbers2.exe
+        new file:   Kushagra Nigam/Nextlargestelement.cpp
+        new file:   Kushagra Nigam/Nextlargestelement.exe
+        new file:   Riya Bansal/arrayprobsolving1.cpp
+        new file:   Riya Bansal/arrayprobsolving1.exe
+        new file:   Riya Bansal/sortevenodd.cpp
+        new file:   Riya Bansal/sortevenodd.exe
+        new file:   Umang Agarwal/Arrays/Greddy Algorithms/coinsprinting.cpp
+        new file:   Umang Agarwal/Arrays/Greddy Algorithms/coinsprinting.exe
+        new file:   Umang Agarwal/Arrays/Kadansalgo.cpp
+        new file:   Umang Agarwal/Arrays/Kadansalgo.exe
+        new file:   Umang Agarwal/Arrays/repeatingandmissing.cpp
+        new file:   Umang Agarwal/Arrays/repeatingandmissing.exe
+        new file:   Umang Agarwal/Arrays/xor_repeatingnumbers.cpp
+        new file:   Umang Agarwal/Arrays/xor_repeatingnumbers.exe
+        new file:   Umang Agarwal/Explode Binary Tree/findnthroot.cpp
+        new file:   Umang Agarwal/Explode Binary Tree/findnthroot.exe
+        new file:   Umang Agarwal/Heaps/heaps.cpp
+        new file:   Umang Agarwal/Heaps/heaps.exe
+        new file:   Umang Agarwal/Heaps/mincosttoconnectnrows.cpp
+        new file:   Umang Agarwal/Segment Trees/segtre.cpp
+        new file:   Umang Agarwal/Segment Trees/segtre.exe
+        new file:   Umang Agarwal/Strings/countnsay(intversion).cpp
+        new file:   levelorderbst.cpp
+        new file:   names.txt
+        new file:   partionlist.cpp
+        new file:   partionlist.exe
+        new file:   sortbinarylinkedlist.cpp
+        new file:   sortbinarylinkedlist.exe
+        new file:   squareroot.cpp
+        new file:   squareroot.exe
+        new file:   tempCodeRunnerFile.cpp
+
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git commit -m "All files added"
+[master (root-commit) 6b82ca4] All files added
+ 95 files changed, 1947 insertions(+)
+ create mode 100644 .vscode/c_cpp_properties.json
+ create mode 100644 .vscode/launch.json
+ create mode 100644 .vscode/settings.json
+ create mode 100644 .vscode/tasks.json
+ create mode 100644 CPP By Sanket Singh/Backtracking_Day1/permutationstring.cpp
+ create mode 100644 CPP By Sanket Singh/Backtracking_Day1/permutationstring.exe
+ create mode 100644 CPP By Sanket Singh/Backtracking_Day1/ratinmaze.cpp
+ create mode 100644 CPP By Sanket Singh/Backtracking_Day1/ratinmaze.exe
+ create mode 100644 CPP By Sanket Singh/Backtracking_Day1/subsetsofnumber.cpp
+ create mode 100644 CPP By Sanket Singh/Backtracking_Day1/subsetsofnumber.exe
+ create mode 100644 CPP By Sanket Singh/Backtracking_Day2/NQueens.cpp
+ create mode 100644 CPP By Sanket Singh/Backtracking_Day2/NQueens.exe
+ create mode 100644 CPP By Sanket Singh/Backtracking_Day2/knightstour.cpp
+ create mode 100644 CPP By Sanket Singh/Backtracking_Day2/knightstour.exe
+ create mode 100644 CPP By Sanket Singh/Dynamic Programming/CSES Problem Set1/minimizingcoin.cpp
+ create mode 100644 CPP By Sanket Singh/Dynamic Programming/CSES Problem Set1/minimizingcoin.exe
+ create mode 100644 CPP By Sanket Singh/Dynamic Programming/CSES problem set 2/bookshop.cpp
+ create mode 100644 CPP By Sanket Singh/Dynamic Programming/CSES problem set 2/bookshop.exe
+ create mode 100644 CPP By Sanket Singh/Dynamic Programming/dicecombination_cses.cpp
+ create mode 100644 CPP By Sanket Singh/Dynamic Programming/dicecombination_cses.exe
+ create mode 100644 CPP By Sanket Singh/Dynamic Programming/fibonacci.cpp
+ create mode 100644 CPP By Sanket Singh/Dynamic Programming/fibonacci.exe
+ create mode 100644 CPP By Sanket Singh/Dynamic Programming/frog.cpp
+ create mode 100644 CPP By Sanket Singh/Dynamic Programming/frog.exe
+ create mode 100644 CPP By Sanket Singh/Dynamic Programming/partyprob.cpp
+ create mode 100644 CPP By Sanket Singh/Dynamic Programming/partyprob.exe
+ create mode 100644 CPP By Sanket Singh/Dynamic Programming/tempCodeRunnerFile.cpp
+ create mode 100644 CPP By Sanket Singh/Graph/GenericGraph.cpp
+ create mode 100644 CPP By Sanket Singh/Graph/GenericGraph.exe
+ create mode 100644 CPP By Sanket Singh/Graph/GenericGraphUnidirectional.cpp
+ create mode 100644 CPP By Sanket Singh/Graph/GenericGraphUnidirectional.exe
+ create mode 100644 CPP By Sanket Singh/Introtocppprog/add.h
+ create mode 100644 CPP By Sanket Singh/Introtocppprog/numer1.cpp
+ create mode 100644 CPP By Sanket Singh/Introtocppprog/numer1.exe
+ create mode 100644 CPP By Sanket Singh/Introtocppprog/primitivepythgoreantriplet.cpp
+ create mode 100644 CPP By Sanket Singh/Introtocppprog/primitivepythgoreantriplet.exe
+ create mode 100644 CPP By Sanket Singh/Introtocppprog/tempCodeRunnerFile.cpp
+ create mode 100644 CPP By Sanket Singh/Recursion_Day2/PartyProblem.cpp
+ create mode 100644 CPP By Sanket Singh/Recursion_Day2/PartyProblem.exe
+ create mode 100644 CPP By Sanket Singh/Recursion_Day2/patternprinting
+ create mode 100644 CPP By Sanket Singh/Recursion_Day2/patternprinting.cpp
+ create mode 100644 CPP By Sanket Singh/Recursion_Day2/patternprinting.exe
+ create mode 100644 CPP By Sanket Singh/Recursion_Day2/power.cpp
+ create mode 100644 CPP By Sanket Singh/Recursion_Day2/power.exe
+ create mode 100644 CPP By Sanket Singh/Recursion_Day2/printingsubset.cpp
+ create mode 100644 CPP By Sanket Singh/Recursion_Day2/printingsubset.exe
+ create mode 100644 CPP By Sanket Singh/Recursion_Day3/dicepath.cpp
+ create mode 100644 CPP By Sanket Singh/Recursion_Day3/dicepath.exe
+ create mode 100644 CPP By Sanket Singh/Recursion_Day3/lexicographical.cpp
+ create mode 100644 CPP By Sanket Singh/Recursion_Day3/lexicographical.exe
+ create mode 100644 CPP By Sanket Singh/Recursion_Day3/permutationofstringwithuniquecharacters.cpp
+ create mode 100644 CPP By Sanket Singh/Recursion_Day3/permutationofstringwithuniquecharacters.exe
+ create mode 100644 CPP By Sanket Singh/Recursion_Day3/permutationsofstringwithrepetition.cpp
+ create mode 100644 CPP By Sanket Singh/Recursion_Day3/permutationsofstringwithrepetition.exe
+ create mode 100644 CPP By Sanket Singh/Recursion_Day3/raatmaze.cpp
+ create mode 100644 CPP By Sanket Singh/Recursion_Day3/raatmaze.exe
+ create mode 100644 CPP By Sanket Singh/Recursion_Day3/tempCodeRunnerFile.cpp
+ create mode 100644 CPP By Sanket Singh/Recursion_Day3/tempCodeRunnerFile.exe
+ create mode 100644 CPP By Sanket Singh/Recusion_Day1/binarystrings.cpp
+ create mode 100644 CPP By Sanket Singh/Recusion_Day1/binarystrings.exe
+ create mode 100644 CPP By Sanket Singh/Recusion_Day1/numbers1.cpp
+ create mode 100644 CPP By Sanket Singh/Recusion_Day1/numbers1.exe
+ create mode 100644 CPP By Sanket Singh/Recusion_Day1/numbers2.cpp
+ create mode 100644 CPP By Sanket Singh/Recusion_Day1/numbers2.exe
+ create mode 100644 Kushagra Nigam/Nextlargestelement.cpp
+ create mode 100644 Kushagra Nigam/Nextlargestelement.exe
+ create mode 100644 Riya Bansal/arrayprobsolving1.cpp
+ create mode 100644 Riya Bansal/arrayprobsolving1.exe
+ create mode 100644 Riya Bansal/sortevenodd.cpp
+ create mode 100644 Riya Bansal/sortevenodd.exe
+ create mode 100644 Umang Agarwal/Arrays/Greddy Algorithms/coinsprinting.cpp
+ create mode 100644 Umang Agarwal/Arrays/Greddy Algorithms/coinsprinting.exe
+ create mode 100644 Umang Agarwal/Arrays/Kadansalgo.cpp
+ create mode 100644 Umang Agarwal/Arrays/Kadansalgo.exe
+ create mode 100644 Umang Agarwal/Arrays/repeatingandmissing.cpp
+ create mode 100644 Umang Agarwal/Arrays/repeatingandmissing.exe
+ create mode 100644 Umang Agarwal/Arrays/xor_repeatingnumbers.cpp
+ create mode 100644 Umang Agarwal/Arrays/xor_repeatingnumbers.exe
+ create mode 100644 Umang Agarwal/Explode Binary Tree/findnthroot.cpp
+ create mode 100644 Umang Agarwal/Explode Binary Tree/findnthroot.exe
+ create mode 100644 Umang Agarwal/Heaps/heaps.cpp
+ create mode 100644 Umang Agarwal/Heaps/heaps.exe
+ create mode 100644 Umang Agarwal/Heaps/mincosttoconnectnrows.cpp
+ create mode 100644 Umang Agarwal/Segment Trees/segtre.cpp
+ create mode 100644 Umang Agarwal/Segment Trees/segtre.exe
+ create mode 100644 Umang Agarwal/Strings/countnsay(intversion).cpp
+ create mode 100644 levelorderbst.cpp
+ create mode 100644 names.txt
+ create mode 100644 partionlist.cpp
+ create mode 100644 partionlist.exe
+ create mode 100644 sortbinarylinkedlist.cpp
+ create mode 100644 sortbinarylinkedlist.exe
+ create mode 100644 squareroot.cpp
+ create mode 100644 squareroot.exe
+ create mode 100644 tempCodeRunnerFile.cpp
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   names.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git add .
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   names.txt
+
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git commit -m "names.txt file"
+[master a0508b8] names.txt file
+ 1 file changed, 2 insertions(+)
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git log
+commit a0508b80d553cba43e30f562ffe1655c06640bd4 (HEAD -> master)
+Author: Arkashish Sutradhar <arkashishdhar1@gmail.com>
+Date:   Sun Aug 1 20:03:01 2021 +0530
+
+    names.txt file
+
+commit 6b82ca4e2c5445deaa5882f04e4ba2b4d3b6d342
+Author: Arkashish Sutradhar <arkashishdhar1@gmail.com>
+Date:   Sun Aug 1 19:59:20 2021 +0530
+
+    All files added
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ rm -rf names.txt
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git log
+commit a0508b80d553cba43e30f562ffe1655c06640bd4 (HEAD -> master)
+Author: Arkashish Sutradhar <arkashishdhar1@gmail.com>
+Date:   Sun Aug 1 20:03:01 2021 +0530
+
+    names.txt file
+
+commit 6b82ca4e2c5445deaa5882f04e4ba2b4d3b6d342
+Author: Arkashish Sutradhar <arkashishdhar1@gmail.com>
+Date:   Sun Aug 1 19:59:20 2021 +0530
+
+    All files added
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    names.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git add .
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git commit -m "deleted names.txt"
+[master 3e49741] deleted names.txt
+ 1 file changed, 2 deletions(-)
+ delete mode 100644 names.txt
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git log
+commit 3e49741e4f047ec5e9177747da1b288861f2a67d (HEAD -> master)
+Author: Arkashish Sutradhar <arkashishdhar1@gmail.com>
+Date:   Sun Aug 1 20:05:04 2021 +0530
+
+    deleted names.txt
+
+commit a0508b80d553cba43e30f562ffe1655c06640bd4
+Author: Arkashish Sutradhar <arkashishdhar1@gmail.com>
+Date:   Sun Aug 1 20:03:01 2021 +0530
+
+    names.txt file
+
+commit 6b82ca4e2c5445deaa5882f04e4ba2b4d3b6d342
+Author: Arkashish Sutradhar <arkashishdhar1@gmail.com>
+Date:   Sun Aug 1 19:59:20 2021 +0530
+
+    All files added
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git reset 6b82ca4e2c5445deaa5882f04e4ba2b4d3b6d342
+Unstaged changes after reset:
+D       names.txt
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git log
+commit 6b82ca4e2c5445deaa5882f04e4ba2b4d3b6d342 (HEAD -> master)
+Author: Arkashish Sutradhar <arkashishdhar1@gmail.com>
+Date:   Sun Aug 1 19:59:20 2021 +0530
+
+    All files added
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    names.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git add .
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    names.txt
+
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ touch surnames.txt
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    names.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        surnames.txt
+
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git stash
+Saved working directory and index state WIP on master: 6b82ca4 All files added
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        surnames.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git log
+commit 6b82ca4e2c5445deaa5882f04e4ba2b4d3b6d342 (HEAD -> master)
+Author: Arkashish Sutradhar <arkashishdhar1@gmail.com>
+Date:   Sun Aug 1 19:59:20 2021 +0530
+
+    All files added
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git stash pop
+Removing names.txt
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    names.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        surnames.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (a74ad35dac8878ed289f8caeb2ad83961c1f5405)
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git add .
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git stash
+Saved working directory and index state WIP on master: 6b82ca4 All files added
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git stash clear
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git remote add origin https://github.com/Arkashish/Programming-File.git
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git remote -v
+origin  https://github.com/Arkashish/Programming-File.git (fetch)
+origin  https://github.com/Arkashish/Programming-File.git (push)
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git push origin master
+
+git push origin main
+
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$
+
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Arkashish/Programming-File.git'
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git push origin master
+
+
+
+
+
+
+
+
+
+
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Arkashish/Programming-File.git'
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git push origin master
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$ git push origin master
+
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$
+
+Arkashish@LAPTOP-NO71HCB7 MINGW64 /e/Programming (master)
+$
