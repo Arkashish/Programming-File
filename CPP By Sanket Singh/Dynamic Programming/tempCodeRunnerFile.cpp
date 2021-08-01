@@ -1,0 +1,7 @@
+
+// {
+//     if(a>b)
+//     return b;
+//     else 
+//     return a;
+// }
