@@ -15,7 +15,7 @@ void subsets(int *arr,vector<int> &temp,int i,int num,int n)
         return;
         
     }
-    if(temp.size() and temp[i]==num)//this throws an error because we are trying to accesss an index which is yet not allocated..since this is a vector and it is in uninitialised state
+    if(arr[i]==num)
     {
         subsets(arr,temp,i+1,num,n);
     }
