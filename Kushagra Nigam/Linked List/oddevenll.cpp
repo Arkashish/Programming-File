@@ -14,7 +14,7 @@ struct ListNode
 class Solution
 {
 public:
-    ListNode *middleNode(ListNode *head)
+    ListNode *oddeven(ListNode *head)
     {
         ListNode *ptr = head;
         ListNode *odd = new ListNode(0);
