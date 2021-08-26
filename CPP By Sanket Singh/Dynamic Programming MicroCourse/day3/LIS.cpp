@@ -31,6 +31,6 @@ int main()
     cin>>n;
     vector<ll> v(n);
     for(ll i=0;i<n;i++)
-        cin>>v[i];
+        cin>>v[i]; //input - 2 4 1 6 3 8 10
     cout<<lis(v,n)<<"\n";
 }
