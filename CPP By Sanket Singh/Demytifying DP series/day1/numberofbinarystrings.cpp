@@ -5,7 +5,7 @@ using namespace std;
 
 int f(int n,vector<int> &dp)
 {
-    if(n==0 || n==1 )
+    if(n==1 || n==2 )
         return n+1;
         if(dp[n]!=-1)
         return dp[n];
