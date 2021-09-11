@@ -24,9 +24,9 @@ int main(int argc, char *argv[])
     vector<vector<ll>> dp(3,vector<ll>(n,0));
     ll a,b,c;
     cin>>a>>b>>c;
-    dp[0][0] = a;
-    dp[1][0] = b;
-    dp[2][0] = c;
+    dp[0][0] = a; //base case1
+    dp[1][0] = b; //base case2
+    dp[2][0] = c; //base case 3
     for(int i=1;i<n;i++)
     {
         cin>>a>>b>>c;
