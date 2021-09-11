@@ -1,18 +1,5 @@
-Enter the next character 
-a
-Enter the next character 
-a
-Enter the next character 
-a
-Enter the next character 
-a
-Enter the next character 
-c
-Enter the next character 
-c
-Enter the next character 
-d
-Enter the next character 
+20
+4
 
 
-Executed in: 0ms 
+Executed in: 0.007ms 
