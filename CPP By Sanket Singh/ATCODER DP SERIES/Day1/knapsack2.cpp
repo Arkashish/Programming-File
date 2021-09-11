@@ -50,11 +50,12 @@ int main(int argc, char *argv[])
             else
             {
                 //we can or cannot pick as per our choice
-                dp2[j] = min({dp1[j],wt[i] + dp1[j-val[i]]});
+                dp2[j] = min({dp2[j],dp1[j],wt[i] + dp1[j-val[i]]});
             }
         }
         for(ll k=0;k<=n*1000;k++)
         {
+            //ll temp = dp1[k];
             dp1[k] = dp2[k];
             dp2[k] = inf;
         }
