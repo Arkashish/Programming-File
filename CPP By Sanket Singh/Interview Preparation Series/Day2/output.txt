@@ -1,0 +1,17 @@
+Please enter the size of cache: 
+ Size of cache is 2
+Added a new key 1
+Added a new key 2
+Accessed the key 1
+Value for key 1 is 1
+Added a new key 3
+As the cache is full we need to remove 2
+Added a new key 4
+As the cache is full we need to remove 1
+Accessed the key 4
+Value for key 4 is 4
+Value is not present at cache pls insert it first
+ Value for key 1 is -2147483648
+
+
+Executed in: 0.008ms 
