@@ -1,3 +1,6 @@
+//Question- Given n positive numbers we need to return the sum of products of all the possible nC2 pairs from the given n number:
+//1,2,3
+//(1*2)+(2*3)+(1*3) = 11
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long int ll;
