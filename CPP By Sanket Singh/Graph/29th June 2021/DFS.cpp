@@ -22,6 +22,7 @@ void addedge(int u, int v)
     graph[u].push_back(v);
     graph[v].push_back(u);
 }
+int component = 0;
 
 void dfshelper(int src, vector<bool> &visited)
 {
@@ -40,13 +41,30 @@ void dfs(int src, int v)
     vector<bool> visited(v, false);
     dfshelper(src, visited);
 }
+int connectedcomponent(int src, int v)
+{
+    int component = 0;
+    vector<bool> visited(v, false);
+    for (int i = 1; i < v; i++)
+    {
+
+        if (not visited[i])
+        {
+            component++;
+            dfshelper(i, visited);
+        }
+    }
+    return component;
+}
 void nonconnecteddfs(int src, int v)
 {
     vector<bool> visited(v, false);
     for (int i = 1; i < v; i++)
     {
         if (not visited[i])
+        {
             dfshelper(i, visited);
+        }
     }
 }
 int main()
@@ -73,18 +91,18 @@ int main()
     4 5
     3 4*/
     //dfs(1, v + 1);
-    cout << endl;
-    cout << "NonConnected DFS: ";
-    /*i/p - 
-    6 7
-    1 2
-    2 4 
-    2 3
-    1 3 
-    3 4*/
-    nonconnecteddfs(1, v + 1);
-    cout << endl;
-
+    // cout << endl;
+    // cout << "NonConnected DFS: ";
+    // /*i/p - 
+    // 6 7
+    // 1 2
+    // 2 4 
+    // 2 3
+    // 1 3 
+    // 3 4*/
+    // nonconnecteddfs(1, v + 1);
+    // cout << endl;
+    cout << "\nNumebr of connected component: " << connectedcomponent(1,v+1) << endl;
 #ifndef ONLINE_JUDGE
     clock_t end = clock();
     cout << "\n\n"

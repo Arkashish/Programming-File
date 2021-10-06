@@ -1,5 +1,5 @@
-
-NonConnected DFS: 1 2 4 3 5 6 
+1 2 4 3 5 6 
+Numebr of connected component: 3
 
 
 Executed in: 0ms 
