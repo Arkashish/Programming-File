@@ -1,3 +1,5 @@
-1 2 4 5 3 
 
-Executed in: 0.015ms 
+NonConnected DFS: 1 2 4 3 5 6 
+
+
+Executed in: 0ms 
