@@ -6,6 +6,8 @@ typedef long long int ll;
 #define pii pair<ll, ll>
 #define vi vector<ll>
 #define endl "\n"
+#define MAX(x,y) (x>y)?x:y
+#define MIN(x,y) (x<y)?x:y
 void file_io()
 {
     ios_base::sync_with_stdio(0);
