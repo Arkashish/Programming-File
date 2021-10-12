@@ -1,0 +1,3 @@
+to get the entire contents of a file we jst need to type:
+g++ filname.cpp -E > test.cpp
+This will expand each and every function for us. This is called preprocessing
