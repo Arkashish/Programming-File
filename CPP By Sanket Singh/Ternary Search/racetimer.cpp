@@ -77,7 +77,7 @@ int main()
         }
         
     }
-    ans=f(l);
+    // ans=f(l);
 
     
 #ifndef ONLINE_JUDGE
