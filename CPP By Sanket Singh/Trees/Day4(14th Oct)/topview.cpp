@@ -71,3 +71,5 @@ int main()
          << "Executed in: " << double(end - begin) / CLOCKS_PER_SEC << "ms \n";
 #endif
 }
+//i/o - 1 2 4 -1 -1 5 -1 -1 3 -1 6 -1 -1
+//o/p - 4 2 1 3 6 
