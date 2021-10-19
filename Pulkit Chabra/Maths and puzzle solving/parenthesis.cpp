@@ -1,3 +1,4 @@
+//This prog will only work when only one type of brackets are added
 
 #include <bits/stdc++.h>
 using namespace std;
