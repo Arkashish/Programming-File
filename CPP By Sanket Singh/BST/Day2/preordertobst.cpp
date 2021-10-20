@@ -103,4 +103,36 @@ int main()
 	return 0;
 }
 
-// This is code is contributed by rathbhupendra
+/* //Better Code
+TreeNode* bstFromPreorder(vector<int>& preorder) {
+        TreeNode* root = new TreeNode(preorder[0]);
+        
+        for(int i = 1; i< preorder.size();i++){
+            TreeNode* temp = root;
+            
+            while(1){
+                if(preorder[i] > temp->val){
+                    if(!temp->right){
+                        TreeNode* newNode = new TreeNode(preorder[i]);
+                        temp->right = newNode;
+                        break;
+                    }
+                    else{
+                        temp = temp->right;
+                    }
+                }
+                 if(preorder[i] < temp->val){
+                    if(!temp->left){
+                        TreeNode* newNode = new TreeNode(preorder[i]);
+                        temp->left = newNode;
+                        break;
+                    }
+                    else{
+                        temp = temp->left;
+                    }
+                }
+            }
+        }
+        return root;
+    }
+*/
