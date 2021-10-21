@@ -6,9 +6,10 @@ typedef long long int ll;
 #define pii pair<ll, ll>
 #define vi vector<ll>
 #define endl "\n"
-#define MAX(x,y) (x>y)?x:y
-#define MIN(x,y) (x<y)?x:y
-#define loop(i,a,b) for(i=(a);i<=b;i++)
+#define loop(i,a,b) for(int i = (a); i <= (b); i++)
+#define revloop(i,a,b) for(int i = (b); i >= (a); i--)
+#define pb push_back
+#define ump unordered_map
 void file_io()
 {
     ios_base::sync_with_stdio(0);
