@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long int ll;
@@ -10,6 +11,18 @@ typedef long long int ll;
 #define revloop(i,a,b) for(int i = (b); i >= (a); i--)
 #define pb push_back
 #define ump unordered_map
+#define dec2bin(n) std::bitset<8>(n).to_string()
+#define str2int(n) std::stoi(n)
+#define bin2dec(n) std::stoi(bin, nullptr, 2)
+int reversDigits(int num)
+{
+    int rev_num = 0;
+    while (num > 0) {
+        rev_num = rev_num * 10 + num % 10;
+        num = num / 10;
+    }
+    return rev_num;
+}
 void file_io()
 {
     ios_base::sync_with_stdio(0);
@@ -24,7 +37,7 @@ int main()
 {
     clock_t begin = clock();
     file_io();
-    
+    cout<<"Welcome to Arkashish's Template";
 #ifndef ONLINE_JUDGE
     clock_t end = clock();
     cout << "\n\n"
