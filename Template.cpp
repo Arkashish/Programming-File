@@ -14,6 +14,7 @@ typedef long long int ll;
 #define dec2bin(n) std::bitset<8>(n).to_string()
 #define str2int(n) std::stoi(n)
 #define bin2dec(n) std::stoi(bin, nullptr, 2)
+#define numofdigits(n,b) ((int)(log(n)/log(b)) + 1)
 int reversDigits(int num)
 {
     int rev_num = 0;
