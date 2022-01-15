@@ -55,7 +55,7 @@ void process(node* child)
 node* populate(node* root)
 {
     if(root==NULL)
-    return NULL;
+    return root;
     leftmost=root;
     node* curr = leftmost;
     while (leftmost!=NULL)
